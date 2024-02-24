@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: edu.eci.cvds.tdd.PersonTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in edu.eci.cvds.tdd.PersonTest
+personUnderage(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.personUnderage(PersonTest.java:17)
+
+invalidateNegativeAge(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.invalidateNegativeAge(PersonTest.java:52)
+
+personHeiguerAgeLimit(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.personHeiguerAgeLimit(PersonTest.java:24)
+
+invalidatePositiveAgeLimit(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.invalidatePositiveAgeLimit(PersonTest.java:59)
+
+personHeiguerAge(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.personHeiguerAge(PersonTest.java:38)
+
+personUnderageLimit(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.personUnderageLimit(PersonTest.java:31)
+
+invalidateNegativeAgeLimit(edu.eci.cvds.tdd.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.eci.cvds.tdd.PersonTest.invalidateNegativeAgeLimit(PersonTest.java:45)
+
