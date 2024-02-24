@@ -128,5 +128,15 @@ public class Person {
     @Override
     public String toString() {
         return "Person [name=" + name + ", id=" + id + ", age=" + age + ", gender=" + gender + ", alive=" + alive + "]"; }
-    
+
+    public boolean isUnderage() throws AgeExceptions{
+        boolean ans = false;
+        if (age <= 17 && age >= 0){
+            ans = true;
+        }
+        if (age < 0 || age > 120) {
+            throw new AgeExceptions(AgeExceptions.ageInvalid);
+        }
+        return ans;
+    }
 }
